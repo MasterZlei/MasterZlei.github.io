@@ -1,0 +1,288 @@
+*{
+	margin:0;
+	padding: 0;
+}
+ol{
+	list-style: none;
+}
+body{
+	font: 24px/1 '微软雅黑'
+}
+.box{
+	background-color: #ffffd5;
+	width: 562px;
+	margin: auto;
+	z-index: -5;
+
+}
+
+
+
+/*已开宝箱*/
+.openedBox{
+	padding: 22px 40px 14px 34px;
+}
+.openedBox>h2{
+	font-size: 28px;
+	height:32px;
+	color: #e60012; 
+}
+.openedBox>ol{
+	overflow: hidden;
+}
+.openedBox li{
+	float: left;
+	width: 237px;
+	height: 96px;
+	border-radius: 6px;
+	background-color: #fa3530;
+	margin-top: 12px;
+	color: #fff;
+	font-size: 24px;
+}
+.openedBox li:nth-child(odd){
+	margin-right: 14px;
+}
+.openedBox span{
+	font-family: 'Arial Black';
+}
+.openedBox i{
+	font-size: 47px;
+	font-style: normal;
+	line-height: 47px;
+}
+.redBag{	
+	background: url(redBag.png) no-repeat 13px 15px;
+	background-size: 56px 67px;
+}
+.redBag>h3{
+	float: left;
+	margin-left: 91px;
+	margin-top:16px;
+}
+.redBag span{
+	float: left;
+	margin-left: 91px;
+}
+.flow{	
+	background: url(flow.png) no-repeat 18px 22px;
+	background-size: 56px 50px;
+}
+.flow>h3{
+	float: left;
+	margin-left: 85px;
+	margin-top:16px;
+}
+.flow span{
+	float: left;
+	margin-left: 85px;
+}
+.lottery{	
+	background: url(lottery.png) no-repeat 13px 15px;
+	background-size: 68px 68px;
+}
+.lottery>h3{
+	float: left;
+	margin-left: 121px;
+	margin-top:37px;
+}
+.openedBox .noBox{
+	text-align: center;
+	line-height: 96px;
+	box-sizing: border-box;
+	border: 2px dashed #f9a09e;
+	background-color: transparent;
+	color: #f9a09e;
+}
+
+/*未开宝箱*/
+.closedBox{
+	height: 241px;
+	background-color: #f51829;
+	overflow: hidden;
+	position: relative;
+}
+.closedBox h2{
+	height: 28px;
+	line-height: 28px;
+	font-size: 28px;
+	margin-left: 38px;
+	padding-top: 22px;
+	padding-bottom: 20px;
+	color: #fff;
+}
+.closedBox h2>i{
+	font-size: 41px;
+	color: #fff000;
+	display: inline-block;
+	font-style: normal;
+	vertical-align: bottom;
+}
+.closedBox ol{
+	width: 2000px;
+	/*margin-left: 1px;*/
+	transition: all 2s;
+}
+.closedBox li{
+	padding-left:20px;
+	padding-right: 32px;
+	float: left;
+}
+.boxStyle{
+	width: 150px;
+	height: 113px;
+	position: relative;
+	float: left;
+	margin-right: 20px;
+	cursor: pointer;
+
+}
+.boxStyle img{
+	width: 174px;
+	height: 167px;
+	position: absolute;
+	top: -29px;
+	left: -14px;
+}
+.boxNum{
+	position: absolute;
+	background: #fff;
+	color: #f51829;
+	
+	text-align: center;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	line-height: 37px;
+	top: 2px;
+	right: -15px;
+	font-size: 15px;
+
+}
+.boxNum i{
+	font-size: 18px;
+	display: inline-block;
+	font-style: normal;
+}
+.next{
+	position: absolute;
+    top: 100px;
+    right: 0;
+    width: 35px;
+    height: 46px;
+    color: #fff;
+    background: rgba(0,0,0,.3);
+    text-align: center;
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+     
+}
+.prev{
+	transform: rotateZ(180deg);
+	left: 0;
+}
+.next i{	
+	font-style: normal;
+	width: 20px ;
+	height: 46px;
+	overflow: hidden;
+	position: absolute;
+	right: 2px;
+
+}
+.next i b{
+	position: absolute;
+	top: 4px;
+	right: -1px;
+	font-size: 40px;
+}
+.circle{
+	position: absolute;
+	bottom: 9px;
+	text-align: center;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.circle span{
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: #cdcbcb;
+	display: inline-block;
+	margin-right: 5px;
+	cursor: pointer;
+}
+/*合作方*/
+.partner{
+	padding: 78px 40px 52px;
+	position: relative;
+}
+.partner li{
+	width: 484px;
+	height: 70px;
+	margin-top: 12px;
+	position: relative;
+	cursor: pointer;
+}
+.partner li img:nth-child(1){
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 484px;
+	height: 70px;
+}
+.partner li img:nth-child(2){
+	position: absolute;
+	width: 75px;
+	height: 56px;
+	top: 7px;
+	right: 10px;
+}
+.partner li p{
+	position: absolute;
+	z-index: 1;
+	color: #fff;
+	top: 25px;
+	left: 100px;
+}
+.more{
+	position: absolute;
+	left: 28px;
+	top: 12px;
+	width: 307px;
+	height: 63px;
+}
+.more img:nth-child(1){
+	height: 63px;
+}
+.more img:nth-child(2){
+	height: 41px;
+	position: absolute;
+	top: 12px;
+	left: 71px;
+}
+.more p{
+	font-size: 32px;
+	width: 221px;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	background: url(more-bg.png) no-repeat; 
+	background-size: 221px 40px;
+	position: absolute;
+	right: 0;
+	top: 13px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+

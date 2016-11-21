@@ -52,7 +52,7 @@ window.onload=function () {
 	}
 	//顶部图片切换
 
-	var arr=['top-bg1.jpg','top-bg2.jpg']
+	var arr=['img/top-bg1.jpg','img/top-bg2.jpg']
 	var top=$('.top')
 	var circle=$s('.circle>span')
 	var num=0;

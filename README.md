@@ -1,2 +1,14 @@
 # MasterZlei.github.io
-线上项目展示
+## 2个在校期间的练习
+
+* 1、muke网首页 <https://masterzlei.github.io/exm-muke/>
+
+
+####以纯原生js实现了大部分的特效
+
+![Mou icon](image/muke-page1.png)
+
+* 2、淘宝2004年的宝箱活动页面
+
+
+![Mou icon](image/treasure-box.png)
